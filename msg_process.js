@@ -41,7 +41,7 @@ exports.msgLogS2EV = function(ev_msglog, ev_client) {
 
 exports.processBootNotification = function(BN_msg) {
     //this.msgLog(BN_msg);
-    return JSON.stringify({ status: "Accepted", currentTime: new Date(), interval: 180 });
+    return JSON.stringify({ status: "Accepted", currentTime: new Date(), interval: 10 });
 };
 
 exports.processStatusNotification = function(SN_msg) {
